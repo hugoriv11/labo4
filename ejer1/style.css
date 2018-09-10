@@ -2,11 +2,21 @@
     box-sizing: border-box;
 }
 
+h1, h2{
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #7f888f;
+}
+
 .editorial {
     display: flex;
     flex-direction: column;
     padding: 20px;
     display: inline-block;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header {
@@ -23,7 +33,7 @@
     padding: 20px;
     display: inline-block;
     justify-content: flex-end;
-    
+
 }
 */
 
@@ -33,9 +43,12 @@ ul > li {
 }
 
 .hr {
-    padding: 20px;
+    color: #f56a6a;
+}
 
-    color: rgb(214, 13, 13);
+.hrfooter {
+  margin-right: 90%;
+  color: #f56a6a;
 }
 
 .main {
@@ -57,17 +70,96 @@ ul > li {
     padding: 20px;
 
 }
+.learn {
+    color: #f56a6a;
+    border-color: #f56a6a;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+.learn:hover {
+    background-color: #f56a6a;
+    color: white;
+    border-color: red;
+    border-radius: 10px;
+}
 
 .footer {
-    grid-template-columns: auto auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
 }
 
-.footer .a {
-    width: 50%;
-    grid-column-start: 1;
+.a{
+  display: grid;
+  grid-template-columns: 20% 80%;
 }
 
-.footer .d {
-    width: 50%;
-    grid-column-end: 3;
+.divfooter1 {
+  color: #f56a6a;
+  display: grid;
+  grid-column-start: 1
+
+}
+
+
+.divfooter11 {
+  display: grid;
+  grid-column-start: 2
+}
+
+.b{
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.divfooter2 {
+  color: #f56a6a;
+  display: grid;
+  grid-column-start: 1
+}
+
+
+.divfooter22 {
+  display: grid;
+  grid-column-start: 2
+}
+
+.c{
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.divfooter3 {
+  color: #f56a6a;
+  display: grid;
+  grid-column-start: 1
+}
+
+
+.divfooter33 {
+  display: grid;
+  grid-column-start: 2
+}
+.d{
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.divfooter4 {
+  color: #f56a6a;
+  display: grid;
+  grid-column-start: 1
+}
+
+.divfooter44 {
+  display: grid;
+  grid-column-start: 2
+}
+
+.footer i {
+  margin-top: 60px;
+  margin-right: 3em;
+  font-size: 4em;
 }
